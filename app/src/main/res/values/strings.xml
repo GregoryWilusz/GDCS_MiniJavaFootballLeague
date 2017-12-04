@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mini Java Football League</string>
+    <string name="teama_name">FC Java</string>
+    <string name="teamb_name">Java United</string>
+    <string name="team_score">0</string>
+    <string name="btn_3pts">Won</string>
+    <string name="btn_2pts">Draw</string>
+    <string name="btn_1pts">Lost</string>
+    <string name="btn_reset">Reset</string>
+</resources>
