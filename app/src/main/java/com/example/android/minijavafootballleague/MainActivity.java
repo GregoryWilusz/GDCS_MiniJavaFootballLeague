@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
+    /**
+     * Add 3 points for a win of Team A.
+     */
     public void addWinTeamA(View view) {
         scoreTeamA += 3;
         displayForTeamA(scoreTeamA);
@@ -44,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
         displayGamesTeamA(gamesPlayedA);
 
     }
+
+    /**
+     * Add 1 point for a drawn of Team A.
+     */
     public void addDrawnTeamA(View view) {
         scoreTeamA += 1;
         displayForTeamA(scoreTeamA);
@@ -51,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
         displayGamesTeamA(gamesPlayedA);
 
     }
+
+    /**
+     * Add no points for a lost of Team A.
+     */
     public void lostTeamA(View view) {
         scoreTeamA += 0;
         displayForTeamA(scoreTeamA);
@@ -75,18 +86,29 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
+    /**
+     * Add 3 points for a win of Team B.
+     */
     public void addWinTeamB(View view) {
         scoreTeamB += 3;
         displayForTeamB(scoreTeamB);
         gamesPlayedB += 1;
         displayGamesTeamB(gamesPlayedB);
     }
+
+    /**
+     * Add 1 point for a drawn of Team B.
+     */
     public void addDrawnTeamB(View view) {
         scoreTeamB += 1;
         displayForTeamB(scoreTeamB);
         gamesPlayedB += 1;
         displayGamesTeamB(gamesPlayedB);
     }
+
+    /**
+     * Add no points for a lost of Team B.
+     */
     public void lostTeamB(View view) {
         scoreTeamB += 0;
         displayForTeamB(scoreTeamB);
@@ -94,6 +116,9 @@ public class MainActivity extends AppCompatActivity {
         displayGamesTeamB(gamesPlayedB);
     }
 
+    /**
+     * Sets score and number of games to 0 for both teams.
+     */
     public void resetScore(View view) {
         scoreTeamA = 0;
         gamesPlayedA = 0;
