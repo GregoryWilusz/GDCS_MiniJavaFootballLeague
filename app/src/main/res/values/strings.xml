@@ -3,7 +3,6 @@
     <string name="teama_name">FC Java</string>
     <string name="teamb_name">Java United</string>
     <string name="games">Games played: </string>
-    <string name="pts">Pts. </string>
     <string name="gamesNoB">0</string>
     <string name="gamesNoA">0</string>
     <string name="team_score">0</string>

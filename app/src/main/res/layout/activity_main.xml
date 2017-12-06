@@ -29,7 +29,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
-                    android:padding="16dp"
+                    android:padding="@dimen/padd_16"
                     android:text="@string/teama_name"
                     android:textColor="#616161"
                     android:textSize="24sp" />
@@ -37,7 +37,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center_horizontal">
+                    android:gravity="center_horizontal" >
 
                     <TextView
                         android:id="@+id/gamesA"
@@ -46,7 +46,7 @@
                         android:fontFamily="sans-serif-medium"
                         android:text="@string/games"
                         android:textColor="#616161"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/txtSize_16" />
 
                     <TextView
                         android:id="@+id/team_a_game"
@@ -56,23 +56,15 @@
                         android:paddingLeft="10dp"
                         android:text="@string/gamesNoA"
                         android:textColor="#616161"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/txtSize_16" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="12dp"
+                    android:layout_marginBottom="@dimen/marg_24"
                     android:gravity="center_horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/pts"
-                        android:textColor="#000000"
-                        android:textSize="36sp" />
 
                     <TextView
                         android:id="@+id/team_a_score"
@@ -87,27 +79,27 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/marg_8"
+                    android:layout_marginLeft="@dimen/marg_24"
+                    android:layout_marginRight="@dimen/marg_24"
                     android:onClick="addWinTeamA"
                     android:text="@string/won" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/marg_8"
+                    android:layout_marginLeft="@dimen/marg_24"
+                    android:layout_marginRight="@dimen/marg_24"
                     android:onClick="addDrawnTeamA"
                     android:text="@string/drawn" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/marg_8"
+                    android:layout_marginLeft="@dimen/marg_24"
+                    android:layout_marginRight="@dimen/marg_24"
                     android:onClick="lostTeamA"
                     android:text="@string/lost" />
             </LinearLayout>
@@ -130,7 +122,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
-                    android:padding="16dp"
+                    android:padding="@dimen/padd_16"
                     android:text="@string/teamb_name"
                     android:textColor="#616161"
                     android:textSize="24sp" />
@@ -147,7 +139,7 @@
                         android:fontFamily="sans-serif-medium"
                         android:text="@string/games"
                         android:textColor="#616161"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/txtSize_16" />
 
                     <TextView
                         android:id="@+id/team_b_game"
@@ -157,23 +149,15 @@
                         android:paddingLeft="10dp"
                         android:text="@string/gamesNoB"
                         android:textColor="#616161"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/txtSize_16" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="12dp"
+                    android:layout_marginBottom="@dimen/marg_24"
                     android:gravity="center_horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="sans-serif"
-                        android:text="@string/pts"
-                        android:textColor="#000000"
-                        android:textSize="36sp" />
 
                     <TextView
                         android:id="@+id/team_b_score"
@@ -189,27 +173,27 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/marg_8"
+                    android:layout_marginLeft="@dimen/marg_24"
+                    android:layout_marginRight="@dimen/marg_24"
                     android:onClick="addWinTeamB"
                     android:text="@string/won" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/marg_8"
+                    android:layout_marginLeft="@dimen/marg_24"
+                    android:layout_marginRight="@dimen/marg_24"
                     android:onClick="addDrawnTeamB"
                     android:text="@string/drawn" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/marg_8"
+                    android:layout_marginLeft="@dimen/marg_24"
+                    android:layout_marginRight="@dimen/marg_24"
                     android:onClick="lostTeamB"
                     android:text="@string/lost" />
             </LinearLayout>
