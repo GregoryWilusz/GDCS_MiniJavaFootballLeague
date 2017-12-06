@@ -31,7 +31,7 @@
                     android:gravity="center_horizontal"
                     android:padding="@dimen/padd_16"
                     android:text="@string/teama_name"
-                    android:textColor="#616161"
+                    android:textColor="@color/forStrings"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -45,7 +45,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
                         android:text="@string/games"
-                        android:textColor="#616161"
+                        android:textColor="@color/forStrings"
                         android:textSize="@dimen/txtSize_16" />
 
                     <TextView
@@ -55,7 +55,7 @@
                         android:fontFamily="sans-serif-medium"
                         android:paddingLeft="10dp"
                         android:text="@string/gamesNoA"
-                        android:textColor="#616161"
+                        android:textColor="@color/forStrings"
                         android:textSize="@dimen/txtSize_16" />
 
                 </LinearLayout>
@@ -72,7 +72,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
                         android:text="@string/team_score"
-                        android:textColor="#000000"
+                        android:textColor="@color/forStrings"
                         android:textSize="56sp" />
                 </LinearLayout>
 
@@ -124,7 +124,7 @@
                     android:gravity="center_horizontal"
                     android:padding="@dimen/padd_16"
                     android:text="@string/teamb_name"
-                    android:textColor="#616161"
+                    android:textColor="@color/forStrings"
                     android:textSize="24sp" />
 
                 <LinearLayout
@@ -138,7 +138,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
                         android:text="@string/games"
-                        android:textColor="#616161"
+                        android:textColor="@color/forStrings"
                         android:textSize="@dimen/txtSize_16" />
 
                     <TextView
@@ -148,7 +148,7 @@
                         android:fontFamily="sans-serif-medium"
                         android:paddingLeft="10dp"
                         android:text="@string/gamesNoB"
-                        android:textColor="#616161"
+                        android:textColor="@color/forStrings"
                         android:textSize="@dimen/txtSize_16" />
 
                 </LinearLayout>
@@ -165,7 +165,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
                         android:text="@string/team_score"
-                        android:textColor="#000000"
+                        android:textColor="@color/forStrings"
                         android:textSize="56sp" />
                 </LinearLayout>
 
